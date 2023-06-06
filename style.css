@@ -1,0 +1,25 @@
+body {
+  overflow: hidden;
+  background: #2C2E43;
+  margin: 0;
+}
+
+.container {
+  background: url(img/nature.png) center/cover no-repeat;
+  height: 80vh;
+  width: 80vh;
+  margin-top: 60px;
+  margin-left: 28%;
+  border-radius: 5%;
+  box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  background: url(img/aquarela.png) center/cover no-repeat;
+  height: 80vh;
+  width: 80vh;
+  border-radius: 5%;
+  mix-blend-mode: screen;
+}
